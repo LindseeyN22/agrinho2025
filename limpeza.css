@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2f7; /* Azul bem claro */
+    color: #333;
+}
+
+header {
+    background-color: #03a9f4; /* Azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0277bd; /* Azul mais escuro */
+    border-bottom: 2px solid #0277bd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+section strong {
+    font-weight: bold;
+    color: #0277bd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
